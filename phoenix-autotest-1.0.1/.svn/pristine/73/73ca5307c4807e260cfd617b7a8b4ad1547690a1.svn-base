@@ -1,0 +1,15 @@
+<suite name="android.app.demo">  
+    <test name="phoenix_mobile1">
+        <classes>
+              <!-- <class name="phoenix.mobiletest.cases.AppTest1" /> -->
+              <class name="phoenix.mobiletest.cases.AppTest2" />
+        </classes>
+    </test>
+    
+    <test name="phoenix_web1">
+        <classes>
+            <class name="phoenix.webtest.cases.TestCase2" />
+        </classes>
+    </test>
+    
+</suite>

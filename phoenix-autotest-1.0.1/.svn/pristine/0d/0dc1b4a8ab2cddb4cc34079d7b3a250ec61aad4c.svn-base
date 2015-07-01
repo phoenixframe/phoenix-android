@@ -1,0 +1,44 @@
+package phoenix.webtest.cases;
+
+import org.junit.Assert;
+
+import phoenix.frame.action.Action;
+import phoenix.frame.caseinterface.InterfaceCaseData;
+import phoenix.frame.log.PhoenixLogger;
+import phoenix.frame.window.Phoenix;
+
+public class TestDemo extends InterfaceCaseData{
+	private static String caseName1 = "刷新页面用例";
+
+	public TestDemo(String caseName) {
+		super(caseName1);
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void case1(Action webdriver){
+			for(int i=0;i<1;i++){
+			GUIElement("点击下载").click();
+			Phoenix.sleep(500);
+			try{
+				Assert.assertEquals("_disk_id_5", GUIElement("点击下载2").getText("id"));
+			if(GUIElement("点击下载2").getText("id").equals("_disk_id_5")){
+				GUIElement("点击下载2").click();
+			}else{
+				if(GUIElement("关闭弹出框").isExist()){
+					GUIElement("关闭弹出框").click();			
+				} else {
+					GUIElement("点击下载").click();
+				}			
+			}	
+			}catch(Exception ee){
+				PhoenixLogger.error("异常类型："+ee.getClass().getName());
+			}
+				
+			Phoenix.sleep(500); 
+			GUIElement("刷新页面").refreshWindow();
+			System.out.println(i);
+			}
+			GUIElement("刷新页面").closeAllWindows();
+		}
+	
+}

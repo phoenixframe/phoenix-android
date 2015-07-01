@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML><HEAD><TITLE>执行过程回放</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+
+<style type="text/css">
+<!--
+.STYLE1 {
+	font-family: "微软雅黑";
+	font-size: large;
+}
+a:link {
+	color: #0000FF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #0000FF;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+.STYLE3 {font-size: medium; color: #FF0000; font-family: "微软雅黑";}
+-->
+</style>
+</HEAD>
+<BODY>
+
+<p><img src="../images/info_ico.gif"> <span class="STYLE1">执行过程回放</span></p>
+
+<hr />
+<p align='center'>
+<script type="text/javascript">
+
+var swf_width=1000
+var swf_height=600
+var texts=''
+var files='video.flv'
+var config='0:自动播放|0:连续播放|100:默认音量|0:控制栏位置|2:控制栏显示|0xffffff:主体颜色|100:主体透明度|0x66ff00:光晕颜色|0x6600FF:图标颜色|0x000000:文字颜色|:logo文字|:logo地址|:结束swf地址'
+
+
+document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ swf_width +'" height="'+ swf_height +'">');
+document.write('<param name="movie" value="flash/vcastr2.swf"><param name="quality" value="high">');
+document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+document.write('<param name="FlashVars" value="vcastr_file='+files+'&vcastr_config='+config+'">');
+document.write('<embed src="flash/vcastr2.swf" wmode="opaque" FlashVars="vcastr_file='+files+'&vcastr_config='+config+'" menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');
+document.write('</object>'); 
+
+
+</script>
+</p>
+<p><blockquote class="STYLE3">提示：请先确认视频录制功能已启用。如若不能播放，请点击 <a href="flash/video.flv">手动打开视频</a></blockquote>
+</p>
+</BODY></HTML>
+

@@ -1,0 +1,67 @@
+package phoenix.webtest.cases;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import phoenix.frame.caseinterface.InterfaceCaseData;
+import phoenix.frame.log.PhoenixLogger;
+import phoenix.frame.window.Phoenix;
+
+public class DownFresh extends InterfaceCaseData{
+	private static String caseName="知道创宇用例";
+
+	public DownFresh(String caseName) {
+		super(caseName);
+		// TODO Auto-generated constructor stub
+	}
+	@Test
+	public void run(){
+		DownFresh downFresh = new DownFresh(caseName);
+		downFresh.knownsecTest();
+	}
+	
+	public void knownsecTest(){
+		GUIElement("打开浏览器").openNewWindow("about:blank");
+		GUIElement("打开测试地址").gotoWindow("http://websoc-dev.intra.knownsec.com:1112/");
+		GUIElement("输入用户名").setText("admin");
+		GUIElement("输入密码").setText("admin");
+		GUIElement("点击登录").click();
+		String checkValue = GUIElement("FOCUS元素").getText("class");
+		Assert.assertEquals(checkValue, "caret");
+		GUIElement("关闭浏览器").closeAllWindows();
+	}
+	
+	public void countDown(){
+		GUIElement("打开浏览器").openNewWindow("about:blank");
+		GUIElement("打开页面").gotoWindow("http://pan.baidu.com/s/1hqJZGBM");
+		for(int i=0;i<1;i++){
+		GUIElement("点击下载").click();
+		Phoenix.sleep(500);
+		try{
+			Assert.assertEquals("_disk_id_5", GUIElement("点击下载2").getText("id"));
+		if(GUIElement("点击下载2").getText("id").equals("_disk_id_5")){
+			GUIElement("点击下载2").click();
+		}else{
+			if(GUIElement("关闭弹出框").isExist()){
+				GUIElement("关闭弹出框").click();			
+			} else {
+				GUIElement("点击下载").click();
+			}			
+		}	
+		}catch(Exception ee){
+			PhoenixLogger.error("异常类型："+ee.getClass().getName());
+		}
+			
+		Phoenix.sleep(500); 
+		GUIElement("刷新页面").refreshWindow();
+		System.out.println(i);
+		}
+		GUIElement("刷新页面").closeAllWindows();
+	}
+
+	public static void main(String args[]){
+		DownFresh downFresh = new DownFresh(caseName);
+		downFresh.run();
+	}
+
+}

@@ -1,0 +1,16 @@
+<suite name="android.app.demo">
+    <!--  
+    <test name="phoenix_mobile">
+        <classes>
+              <class name="phoenix.mobiletest.cases.AppTest1" />
+              <class name="phoenix.mobiletest.cases.AppTest2" />
+        </classes>
+    </test>
+    -->
+    
+    <test name="phoenix_web">
+        <classes>
+            <class name="phoenix.webtest.cases.DownFresh" />
+        </classes>
+    </test>
+</suite>

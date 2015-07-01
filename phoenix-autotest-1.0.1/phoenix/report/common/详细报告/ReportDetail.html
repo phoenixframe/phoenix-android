@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script type="text/javascript" src="../images/jquery-1.10.2.min.js"></script>
+<title>报告概览</title>
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: 微软雅黑;
+}
+.STYLE1 {font-size: x-large}
+.STYLE2 {font-size: large}
+.STYLE3 {font-size: large; font-weight: bold; }
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+
+</style>
+<script type="text/javascript"> 
+function myFun(n){
+  var attValue=$("#image"+n).attr("src");
+
+if(attValue == "../images/expended_image.gif"){
+    $("#image"+n).attr("src","../images/collapsed_image.gif");
+  }else{
+    $("#image"+n).attr("src","../images/expended_image.gif");
+  }
+    $(".nowamagic"+n).slideToggle("fast");
+}
+</script>
+</head>
+
+<body>
+<p class="STYLE1"><img src="../images/info_ico.gif"> 报告概览</p>
+<hr />
+<p class="STYLE2"><strong>1、系统信息：</strong></p>
+<blockquote>
+   <<显示本地信息>>
+</blockquote>
+
+<p class="STYLE3">2、场景信息：</p>
+<blockquote>
+   <<显示场景信息>>
+</blockquote>
+<p class="STYLE3">3、图形走势：</p>
+<blockquote>
+   <<显示图形走势信息>>
+</blockquote></p>
+<p class="STYLE3">4、详细步骤LOG：</p>
+<blockquote>
+   <<显示详细步骤信息>>
+</blockquote></p>
+</body>
+</html>

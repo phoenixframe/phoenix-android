@@ -1,0 +1,343 @@
+2014-03-21 15:48:34 [ main:0 ] - [ INFO ] --------------------------------------2014-03-21 15:48:34------------------------------------------------------
+2014-03-21 15:48:34 [ main:1 ] - [ INFO ] 加载成功
+2014-03-21 15:48:34 [ main:30 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-03-21 15:48:34 [ main:30 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-03-21 15:48:34 [ main:30 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-03-21 15:48:34 [ main:31 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-03-21 15:48:34 [ main:31 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-03-21 18:58:37 [ main:0 ] - [ INFO ] --------------------------------------2014-03-21 18:58:37------------------------------------------------------
+2014-03-21 18:58:37 [ main:0 ] - [ INFO ] 加载成功
+2014-03-21 18:58:37 [ main:0 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-03-21 18:58:37 [ main:16 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-03-21 18:58:37 [ main:16 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-03-21 18:58:37 [ main:16 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-03-21 18:58:37 [ main:16 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-03-21 18:59:10 [ main:0 ] - [ INFO ] --------------------------------------2014-03-21 18:59:10------------------------------------------------------
+2014-03-21 18:59:10 [ main:0 ] - [ INFO ] 加载成功
+2014-03-21 18:59:10 [ main:0 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-03-21 18:59:10 [ main:16 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-03-21 18:59:10 [ main:16 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-03-21 18:59:10 [ main:16 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-03-21 18:59:10 [ main:16 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-03-21 18:59:19 [ main:8504 ] - [ INFO ] 驱动类型：Firefox[WebDriver]
+2014-03-21 18:59:19 [ main:8520 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开浏览器]执行 openNewWindow 操作成功！openNewWindow的值是：about:blank
+2014-03-21 18:59:19 [ main:8520 ] - [ INFO ] 新的浏览器窗口句柄：{c3e7d2c1-8958-43ec-a8cd-d661f3bcc29e}
+2014-03-21 18:59:30 [ main:19628 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 gotoWindow 操作成功！gotoWindow的值是：http://pan.baidu.com/s/1hqJZGBM
+2014-03-21 18:59:33 [ main:22562 ] - [ INFO ] 对元素[id:downFileButtom |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载]执行 click 操作成功！
+2014-03-21 18:59:33 [ main:23203 ] - [ INFO ] 对元素[id:_disk_id_5 |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载2]执行 getText 操作成功！getText的值是：_disk_id_5
+2014-03-21 18:59:33 [ main:23218 ] - [ INFO ] 对元素[id:_disk_id_5 |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载2]执行 click 操作成功！
+2014-03-21 18:59:36 [ main:25309 ] - [ ERROR ] 执行 click 操作捕捉到异常。异常类型：org.openqa.selenium.ElementNotVisibleException ,异常信息：Element is not currently visible and so may not be interacted with
+Command duration or timeout: 2.08 seconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ZXXFLY-PC', ip: '192.168.1.23', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_01'
+Session ID: ff082cea-d0ec-447e-9333-42e5ddedba8d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=24.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+2014-03-21 18:59:36 [ main:25809 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][刷新页面]执行 refreshWindow 操作成功！
+2014-03-21 18:59:40 [ main:30037 ] - [ INFO ] 对元素[id:downFileButtom |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载]执行 click 操作成功！
+2014-03-21 18:59:41 [ main:30725 ] - [ INFO ] 对元素[id:_disk_id_5 |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载2]执行 getText 操作成功！getText的值是：_disk_id_5
+2014-03-21 18:59:41 [ main:30740 ] - [ INFO ] 对元素[id:_disk_id_5 |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载2]执行 click 操作成功！
+2014-03-21 18:59:42 [ main:31723 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][刷新页面]执行 refreshWindow 操作成功！
+2014-03-21 18:59:45 [ main:34346 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][刷新页面]执行 closeAllWindows 操作成功！
+2014-03-22 08:37:31 [ main:0 ] - [ INFO ] --------------------------------------2014-03-22 08:37:31------------------------------------------------------
+2014-03-22 08:37:31 [ main:15 ] - [ INFO ] 加载成功
+2014-03-22 08:37:31 [ main:15 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-03-22 08:37:31 [ main:15 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-03-22 08:37:31 [ main:15 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-03-22 08:37:31 [ main:15 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-03-22 08:37:31 [ main:15 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-03-22 08:37:41 [ main:10547 ] - [ INFO ] 驱动类型：Firefox[WebDriver]
+2014-03-22 08:37:41 [ main:10580 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开浏览器]执行 openNewWindow 操作成功！openNewWindow的值是：about:blank
+2014-03-22 08:37:42 [ main:10720 ] - [ INFO ] 新的浏览器窗口句柄：{dedd77ee-68be-4244-a47c-67a9beaf0515}
+2014-03-22 08:37:45 [ main:13887 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 gotoWindow 操作成功！gotoWindow的值是：http://pan.baidu.com/s/1hqJZGBM
+2014-03-22 08:37:47 [ main:15916 ] - [ INFO ] 对元素[id:downFileButtom |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载]执行 click 操作成功！
+2014-03-22 08:37:48 [ main:16744 ] - [ INFO ] 对元素[id:_disk_id_5 |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载2]执行 getText 操作成功！getText的值是：_disk_id_5
+2014-03-22 08:37:48 [ main:16759 ] - [ INFO ] 对元素[id:_disk_id_5 |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载2]执行 click 操作成功！
+2014-03-22 08:37:50 [ main:18850 ] - [ ERROR ] 执行 click 操作捕捉到异常。异常类型：org.openqa.selenium.ElementNotVisibleException ,异常信息：Element is not currently visible and so may not be interacted with
+Command duration or timeout: 2.08 seconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ZXXFLY-PC', ip: '192.168.1.113', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_01'
+Session ID: 7a355ae2-8fc1-4f19-8e2e-faed47c5c370
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=24.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+2014-03-22 08:37:50 [ main:19350 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][刷新页面]执行 refreshWindow 操作成功！
+2014-03-22 08:37:54 [ main:23094 ] - [ INFO ] 对元素[id:downFileButtom |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载]执行 click 操作成功！
+2014-03-22 08:37:55 [ main:23797 ] - [ INFO ] 对元素[id:_disk_id_5 |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载2]执行 getText 操作成功！getText的值是：_disk_id_5
+2014-03-22 08:37:55 [ main:23812 ] - [ INFO ] 对元素[id:_disk_id_5 |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载2]执行 click 操作成功！
+2014-03-22 08:37:56 [ main:24780 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][刷新页面]执行 refreshWindow 操作成功！
+2014-03-22 08:37:59 [ main:28307 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][刷新页面]执行 closeAllWindows 操作成功！
+2014-03-22 08:55:15 [ main:0 ] - [ INFO ] --------------------------------------2014-03-22 08:55:15------------------------------------------------------
+2014-03-22 08:55:15 [ main:0 ] - [ INFO ] 加载成功
+2014-03-22 08:55:15 [ main:0 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-03-22 08:55:15 [ main:0 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-03-22 08:55:15 [ main:0 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-03-22 08:55:15 [ main:0 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-03-22 08:55:15 [ main:0 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-03-22 08:55:24 [ main:8854 ] - [ INFO ] 驱动类型：Firefox[WebDriver]
+2014-03-22 08:55:24 [ main:8854 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开浏览器]执行 openNewWindow 操作成功！openNewWindow的值是：about:blank
+2014-03-22 08:55:24 [ main:8869 ] - [ INFO ] 新的浏览器窗口句柄：{607168ca-25bc-4c96-ae28-5202cad172aa}
+2014-03-22 08:55:26 [ main:11101 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 gotoWindow 操作成功！gotoWindow的值是：http://pan.baidu.com/s/1hqJZGBM
+2014-03-22 08:55:28 [ main:13351 ] - [ INFO ] 对元素[id:downFileButtom |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载]执行 click 操作成功！
+2014-03-22 08:55:29 [ main:13992 ] - [ INFO ] 对元素[id:_disk_id_5 |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载2]执行 getText 操作成功！getText的值是：_disk_id_5
+2014-03-22 08:55:29 [ main:14007 ] - [ INFO ] 对元素[id:_disk_id_5 |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载2]执行 click 操作成功！
+2014-03-22 08:55:31 [ main:16098 ] - [ ERROR ] 执行 click 操作捕捉到异常。异常类型：org.openqa.selenium.ElementNotVisibleException ,异常信息：Element is not currently visible and so may not be interacted with
+Command duration or timeout: 2.08 seconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ZXXFLY-PC', ip: '192.168.1.113', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_01'
+Session ID: 3d1b03c0-7d08-4358-9654-481bb6538939
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=24.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+2014-03-22 08:55:31 [ main:16598 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][刷新页面]执行 refreshWindow 操作成功！
+2014-03-22 08:55:35 [ main:19986 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][刷新页面]执行 closeAllWindows 操作成功！
+2014-03-22 09:19:02 [ main:0 ] - [ INFO ] --------------------------------------2014-03-22 09:19:02------------------------------------------------------
+2014-03-22 09:19:02 [ main:1 ] - [ INFO ] 加载成功
+2014-03-22 09:19:02 [ main:3 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-03-22 09:19:02 [ main:3 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-03-22 09:19:02 [ main:3 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-03-22 09:19:02 [ main:4 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-03-22 09:19:02 [ main:4 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-03-22 09:22:03 [ main:181280 ] - [ INFO ] 驱动类型：Firefox[WebDriver]
+2014-03-22 09:22:03 [ main:181288 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开浏览器]执行 openNewWindow 操作成功！openNewWindow的值是：about:blank
+2014-03-22 09:22:03 [ main:181292 ] - [ INFO ] 新的浏览器窗口句柄：{333956e6-b324-48e7-b89a-2b2663f46f2b}
+2014-03-22 09:22:05 [ main:183605 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 gotoWindow 操作成功！gotoWindow的值是：http://pan.baidu.com/s/1hqJZGBM
+2014-03-22 09:22:13 [ main:191114 ] - [ INFO ] 对元素[id:downFileButtom |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载]执行 click 操作成功！
+2014-03-22 09:22:14 [ main:192152 ] - [ INFO ] 对元素[id:_disk_id_5 |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载2]执行 getText 操作成功！getText的值是：_disk_id_5
+2014-03-22 09:22:14 [ main:192162 ] - [ INFO ] 对元素[id:_disk_id_5 |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载2]执行 click 操作成功！
+2014-03-22 09:22:16 [ main:194203 ] - [ ERROR ] 执行 click 操作捕捉到异常。异常类型：org.openqa.selenium.ElementNotVisibleException ,异常信息：Element is not currently visible and so may not be interacted with
+Command duration or timeout: 2.03 seconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ZXXFLY-PC', ip: '192.168.1.113', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_01'
+Session ID: 9d07ac69-1561-48f7-98df-42c7ad37714a
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=24.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+2014-03-22 09:22:16 [ main:194703 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][刷新页面]执行 refreshWindow 操作成功！
+2014-03-22 09:22:23 [ main:201560 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][刷新页面]执行 closeAllWindows 操作成功！
+2014-03-25 13:06:51 [ main:0 ] - [ INFO ] --------------------------------------2014-03-25 13:06:51------------------------------------------------------
+2014-03-25 13:06:51 [ main:16 ] - [ INFO ] 加载成功
+2014-03-25 13:06:51 [ main:47 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-03-25 13:06:51 [ main:47 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-03-25 13:06:51 [ main:47 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-03-25 13:06:51 [ main:47 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-03-25 13:06:51 [ main:47 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-03-25 13:07:01 [ main:9908 ] - [ INFO ] 驱动类型：Firefox[WebDriver]
+2014-03-25 13:07:01 [ main:9956 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开浏览器]执行 openNewWindow 操作成功！openNewWindow的值是：about:blank
+2014-03-25 13:07:01 [ main:9972 ] - [ INFO ] 新的浏览器窗口句柄：{5a3a2d25-6d14-4815-8576-89b058f4dd58}
+2014-03-25 13:07:04 [ main:13092 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 gotoWindow 操作成功！gotoWindow的值是：http://pan.baidu.com/s/1hqJZGBM
+2014-03-25 13:07:44 [ main:0 ] - [ INFO ] --------------------------------------2014-03-25 13:07:44------------------------------------------------------
+2014-03-25 13:07:44 [ main:0 ] - [ INFO ] 加载成功
+2014-03-25 13:07:44 [ main:16 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-03-25 13:07:44 [ main:16 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-03-25 13:07:44 [ main:16 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-03-25 13:07:44 [ main:16 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-03-25 13:07:44 [ main:16 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-03-25 13:07:52 [ main:8333 ] - [ INFO ] 驱动类型：Firefox[WebDriver]
+2014-03-25 13:07:52 [ main:8333 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开浏览器]执行 openNewWindow 操作成功！openNewWindow的值是：about:blank
+2014-03-25 13:07:52 [ main:8348 ] - [ INFO ] 新的浏览器窗口句柄：{f20deaac-1ac0-4f83-a086-16cf61798c0e}
+2014-03-25 13:07:53 [ main:9099 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 gotoWindow 操作成功！gotoWindow的值是：http://localhost:4444/wd/hub/status
+2014-03-25 13:07:53 [ main:9193 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 getBrowserTitle 操作成功！getBrowserTitle的值是：
+2014-03-25 13:09:02 [ main:0 ] - [ INFO ] --------------------------------------2014-03-25 13:09:02------------------------------------------------------
+2014-03-25 13:09:02 [ main:0 ] - [ INFO ] 加载成功
+2014-03-25 13:09:02 [ main:0 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-03-25 13:09:02 [ main:0 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-03-25 13:09:02 [ main:0 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-03-25 13:09:02 [ main:0 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-03-25 13:09:02 [ main:0 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-03-25 13:09:11 [ main:8535 ] - [ INFO ] 驱动类型：Firefox[WebDriver]
+2014-03-25 13:09:11 [ main:8535 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开浏览器]执行 openNewWindow 操作成功！openNewWindow的值是：about:blank
+2014-03-25 13:09:11 [ main:8551 ] - [ INFO ] 新的浏览器窗口句柄：{ca697c80-14da-4c14-991d-2a5892d76ce5}
+2014-03-25 13:09:11 [ main:9145 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 gotoWindow 操作成功！gotoWindow的值是：http://localhost:4444/wd/hub/status
+2014-03-25 13:09:11 [ main:9160 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 getBrowserTitle 操作成功！getBrowserTitle的值是：
+2014-03-25 13:09:36 [ main:0 ] - [ INFO ] --------------------------------------2014-03-25 13:09:36------------------------------------------------------
+2014-03-25 13:09:36 [ main:0 ] - [ INFO ] 加载成功
+2014-03-25 13:09:36 [ main:0 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-03-25 13:09:36 [ main:0 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-03-25 13:09:36 [ main:0 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-03-25 13:09:36 [ main:0 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-03-25 13:09:36 [ main:0 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-03-25 13:09:43 [ main:7849 ] - [ INFO ] 驱动类型：Firefox[WebDriver]
+2014-03-25 13:09:43 [ main:7849 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开浏览器]执行 openNewWindow 操作成功！openNewWindow的值是：about:blank
+2014-03-25 13:09:43 [ main:7864 ] - [ INFO ] 新的浏览器窗口句柄：{01ae7bd5-5800-4e5d-aeb8-37e495d6a1e7}
+2014-03-25 13:09:44 [ main:8754 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 gotoWindow 操作成功！gotoWindow的值是：http://localhost:4444/wd/hub/status
+2014-03-25 13:09:44 [ main:8770 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 getBrowserTitle 操作成功！getBrowserTitle的值是：
+2014-03-25 13:10:18 [ main:0 ] - [ INFO ] --------------------------------------2014-03-25 13:10:18------------------------------------------------------
+2014-03-25 13:10:18 [ main:0 ] - [ INFO ] 加载成功
+2014-03-25 13:10:18 [ main:0 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-03-25 13:10:18 [ main:0 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-03-25 13:10:18 [ main:0 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-03-25 13:10:18 [ main:0 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-03-25 13:10:18 [ main:0 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-03-25 13:11:58 [ main:0 ] - [ INFO ] --------------------------------------2014-03-25 13:11:58------------------------------------------------------
+2014-03-25 13:11:58 [ main:0 ] - [ INFO ] 加载成功
+2014-03-25 13:11:58 [ main:0 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-03-25 13:11:58 [ main:0 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-03-25 13:11:58 [ main:0 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-03-25 13:11:58 [ main:0 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-03-25 13:11:58 [ main:0 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-03-25 13:12:02 [ Forwarding newSession on session null to remote:3495 ] - [ INFO ] I/O exception (java.net.SocketException) caught when processing request: Software caused connection abort: recv failed
+2014-03-25 13:12:02 [ Forwarding newSession on session null to remote:3495 ] - [ INFO ] Retrying request
+2014-03-25 13:12:02 [ main:3528 ] - [ INFO ] 驱动类型：InternetExplorer[WebDriver][64bit]
+2014-03-25 13:12:02 [ main:3528 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开浏览器]执行 openNewWindow 操作成功！openNewWindow的值是：about:blank
+2014-03-25 13:12:02 [ main:3528 ] - [ INFO ] 新的浏览器窗口句柄：7058995b-4c24-497f-88ec-72f26cf93de8
+2014-03-25 13:12:02 [ main:4183 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 gotoWindow 操作成功！gotoWindow的值是：http://localhost:4444/wd/hub/status
+2014-03-25 13:12:02 [ main:4214 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 getBrowserTitle 操作成功！getBrowserTitle的值是：
+2014-03-25 13:13:04 [ main:0 ] - [ INFO ] --------------------------------------2014-03-25 13:13:04------------------------------------------------------
+2014-03-25 13:13:04 [ main:15 ] - [ INFO ] 加载成功
+2014-03-25 13:13:04 [ main:15 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-03-25 13:13:04 [ main:15 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-03-25 13:13:04 [ main:15 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-03-25 13:13:04 [ main:15 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-03-25 13:13:04 [ main:15 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-04-11 17:56:54 [ main:1 ] - [ INFO ] --------------------------------------2014-04-11 17:56:54------------------------------------------------------
+2014-04-11 17:56:54 [ main:10 ] - [ INFO ] 加载成功
+2014-04-11 17:56:54 [ main:29 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-04-11 17:56:54 [ main:29 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-04-11 17:56:54 [ main:29 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-04-11 17:56:54 [ main:29 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-04-11 17:56:54 [ main:29 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-04-11 17:56:58 [ main:4175 ] - [ INFO ] 驱动类型：Chrome[WebDriver]
+2014-04-11 17:56:59 [ main:4735 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开浏览器]执行 openNewWindow 操作成功！openNewWindow的值是：about:blank
+2014-04-11 17:56:59 [ main:5192 ] - [ INFO ] 新的浏览器窗口句柄：CDwindow-C0F70323-7E83-47E0-9207-AC28408BD887
+2014-04-11 17:57:02 [ main:8695 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 gotoWindow 操作成功！gotoWindow的值是：http://pan.baidu.com/s/1hqJZGBM
+2014-04-11 17:57:03 [ main:9144 ] - [ WARN ] 第 1 次等待。。。对元素[id:downFileButtom |name:  |xpath://*[@id="downFileButtom"] |class:new-dbtn |css:  |tagName:b |linkText: ][点击下载]执行 click 操作失败！找不到元素！ScreenshotPath：D:\workspace\phoenix-autotest-1.0.1\phoenix\screenshot\click2014-04-11 175703_1.png
+2014-04-11 17:57:03 [ main:9245 ] - [ WARN ] 操作失败，没有找到Alert窗口！
+2014-04-11 17:57:03 [ main:9531 ] - [ WARN ] 第 2 次等待。。。对元素[id:downFileButtom |name:  |xpath://*[@id="downFileButtom"] |class:new-dbtn |css:  |tagName:b |linkText: ][点击下载]执行 click 操作失败！找不到元素！ScreenshotPath：D:\workspace\phoenix-autotest-1.0.1\phoenix\screenshot\click2014-04-11 175703_1.png
+2014-04-11 17:57:03 [ main:9631 ] - [ WARN ] 操作失败，没有找到Alert窗口！
+2014-04-11 17:57:04 [ main:9906 ] - [ WARN ] 第 3 次等待。。。对元素[id:downFileButtom |name:  |xpath://*[@id="downFileButtom"] |class:new-dbtn |css:  |tagName:b |linkText: ][点击下载]执行 click 操作失败！找不到元素！ScreenshotPath：D:\workspace\phoenix-autotest-1.0.1\phoenix\screenshot\click2014-04-11 175703_1.png
+2014-04-11 17:57:04 [ main:10006 ] - [ WARN ] 操作失败，没有找到Alert窗口！
+2014-04-11 17:57:05 [ main:10796 ] - [ WARN ] 第 1 次等待。。。对元素[id:_disk_id_5 |name:  |xpath:  |class:  |css:  |tagName:  |linkText: ][点击下载2]执行 getText 操作失败！找不到元素！ScreenshotPath：D:\workspace\phoenix-autotest-1.0.1\phoenix\screenshot\getText2014-04-11 175704_1.png
+2014-04-11 17:57:05 [ main:10896 ] - [ WARN ] 操作失败，没有找到Alert窗口！
+2014-04-11 17:57:05 [ main:11164 ] - [ WARN ] 第 2 次等待。。。对元素[id:_disk_id_5 |name:  |xpath:  |class:  |css:  |tagName:  |linkText: ][点击下载2]执行 getText 操作失败！找不到元素！ScreenshotPath：D:\workspace\phoenix-autotest-1.0.1\phoenix\screenshot\getText2014-04-11 175705_1.png
+2014-04-11 17:57:05 [ main:11265 ] - [ WARN ] 操作失败，没有找到Alert窗口！
+2014-04-11 17:57:05 [ main:11499 ] - [ WARN ] 第 3 次等待。。。对元素[id:_disk_id_5 |name:  |xpath:  |class:  |css:  |tagName:  |linkText: ][点击下载2]执行 getText 操作失败！找不到元素！ScreenshotPath：D:\workspace\phoenix-autotest-1.0.1\phoenix\screenshot\getText2014-04-11 175705_1.png
+2014-04-11 17:57:05 [ main:11599 ] - [ WARN ] 操作失败，没有找到Alert窗口！
+2014-04-11 18:06:44 [ main:0 ] - [ INFO ] --------------------------------------2014-04-11 18:06:44------------------------------------------------------
+2014-04-11 18:06:44 [ main:1 ] - [ INFO ] 加载成功
+2014-04-11 18:06:44 [ main:2 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-04-11 18:06:44 [ main:3 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-04-11 18:06:44 [ main:3 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-04-11 18:06:44 [ main:3 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-04-11 18:06:44 [ main:3 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-04-11 18:06:46 [ main:2418 ] - [ INFO ] 驱动类型：Chrome[WebDriver]
+2014-04-11 18:06:46 [ main:2426 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开浏览器]执行 openNewWindow 操作成功！openNewWindow的值是：about:blank
+2014-04-11 18:06:46 [ main:2430 ] - [ INFO ] 新的浏览器窗口句柄：CDwindow-B3A90B0D-F66B-4808-868B-DD135E8D3257
+2014-04-11 18:06:52 [ main:8423 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 gotoWindow 操作成功！gotoWindow的值是：http://pan.baidu.com/s/1hqJZGBM
+2014-04-11 18:06:52 [ main:8760 ] - [ WARN ] 第 1 次等待。。。对元素[id:downFileButtom |name:  |xpath://*[@id="downFileButtom"] |class:new-dbtn |css:  |tagName:b |linkText: ][点击下载]执行 click 操作失败！找不到元素！ScreenshotPath：D:\workspace\phoenix-autotest-1.0.1\phoenix\screenshot\click2014-04-11 180652_1.png
+2014-04-11 18:06:52 [ main:8860 ] - [ WARN ] 操作失败，没有找到Alert窗口！
+2014-04-11 18:06:53 [ main:9117 ] - [ WARN ] 第 2 次等待。。。对元素[id:downFileButtom |name:  |xpath://*[@id="downFileButtom"] |class:new-dbtn |css:  |tagName:b |linkText: ][点击下载]执行 click 操作失败！找不到元素！ScreenshotPath：D:\workspace\phoenix-autotest-1.0.1\phoenix\screenshot\click2014-04-11 180652_1.png
+2014-04-11 18:06:53 [ main:9217 ] - [ WARN ] 操作失败，没有找到Alert窗口！
+2014-04-11 18:06:53 [ main:9502 ] - [ WARN ] 第 3 次等待。。。对元素[id:downFileButtom |name:  |xpath://*[@id="downFileButtom"] |class:new-dbtn |css:  |tagName:b |linkText: ][点击下载]执行 click 操作失败！找不到元素！ScreenshotPath：D:\workspace\phoenix-autotest-1.0.1\phoenix\screenshot\click2014-04-11 180653_1.png
+2014-04-11 18:06:53 [ main:9602 ] - [ WARN ] 操作失败，没有找到Alert窗口！
+2014-04-11 18:06:54 [ main:10328 ] - [ WARN ] 第 1 次等待。。。对元素[id:_disk_id_5 |name:  |xpath:  |class:  |css:  |tagName:  |linkText: ][点击下载2]执行 getText 操作失败！找不到元素！ScreenshotPath：D:\workspace\phoenix-autotest-1.0.1\phoenix\screenshot\getText2014-04-11 180654_1.png
+2014-04-11 18:06:54 [ main:10434 ] - [ WARN ] 操作失败，没有找到Alert窗口！
+2014-04-11 18:06:54 [ main:10714 ] - [ WARN ] 第 2 次等待。。。对元素[id:_disk_id_5 |name:  |xpath:  |class:  |css:  |tagName:  |linkText: ][点击下载2]执行 getText 操作失败！找不到元素！ScreenshotPath：D:\workspace\phoenix-autotest-1.0.1\phoenix\screenshot\getText2014-04-11 180654_1.png
+2014-04-11 18:06:54 [ main:10814 ] - [ WARN ] 操作失败，没有找到Alert窗口！
+2014-04-11 18:06:55 [ main:11071 ] - [ WARN ] 第 3 次等待。。。对元素[id:_disk_id_5 |name:  |xpath:  |class:  |css:  |tagName:  |linkText: ][点击下载2]执行 getText 操作失败！找不到元素！ScreenshotPath：D:\workspace\phoenix-autotest-1.0.1\phoenix\screenshot\getText2014-04-11 180654_1.png
+2014-04-11 18:06:55 [ main:11172 ] - [ WARN ] 操作失败，没有找到Alert窗口！
+2014-04-11 18:10:16 [ main:0 ] - [ INFO ] --------------------------------------2014-04-11 18:10:16------------------------------------------------------
+2014-04-11 18:10:16 [ main:1 ] - [ INFO ] 加载成功
+2014-04-11 18:10:16 [ main:2 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-04-11 18:10:16 [ main:3 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-04-11 18:10:16 [ main:3 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-04-11 18:10:16 [ main:3 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-04-11 18:10:16 [ main:3 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-04-11 18:10:19 [ main:2142 ] - [ INFO ] 驱动类型：Chrome[WebDriver]
+2014-04-11 18:10:19 [ main:2150 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开浏览器]执行 openNewWindow 操作成功！openNewWindow的值是：about:blank
+2014-04-11 18:10:19 [ main:2153 ] - [ INFO ] 新的浏览器窗口句柄：CDwindow-F32363EB-6FCB-45F4-8703-0E905B77DCFA
+2014-04-11 18:10:26 [ main:9909 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 gotoWindow 操作成功！gotoWindow的值是：http://pan.baidu.com/s/1hqJZGBM
+2014-04-11 18:10:27 [ main:10231 ] - [ WARN ] 第 1 次等待。。。对元素[id:downFileButtom |name:  |xpath://*[@id="downFileButtom"] |class:new-dbtn |css:  |tagName:b |linkText: ][点击下载]执行 click 操作失败！找不到元素！ScreenshotPath：D:\workspace\phoenix-autotest-1.0.1\phoenix\screenshot\click2014-04-11 181026_1.png
+2014-04-11 18:10:27 [ main:10331 ] - [ WARN ] 操作失败，没有找到Alert窗口！
+2014-04-11 18:10:27 [ main:10611 ] - [ WARN ] 第 2 次等待。。。对元素[id:downFileButtom |name:  |xpath://*[@id="downFileButtom"] |class:new-dbtn |css:  |tagName:b |linkText: ][点击下载]执行 click 操作失败！找不到元素！ScreenshotPath：D:\workspace\phoenix-autotest-1.0.1\phoenix\screenshot\click2014-04-11 181027_1.png
+2014-04-11 18:10:27 [ main:10711 ] - [ WARN ] 操作失败，没有找到Alert窗口！
+2014-04-11 18:10:27 [ main:11013 ] - [ WARN ] 第 3 次等待。。。对元素[id:downFileButtom |name:  |xpath://*[@id="downFileButtom"] |class:new-dbtn |css:  |tagName:b |linkText: ][点击下载]执行 click 操作失败！找不到元素！ScreenshotPath：D:\workspace\phoenix-autotest-1.0.1\phoenix\screenshot\click2014-04-11 181027_1.png
+2014-04-11 18:10:27 [ main:11114 ] - [ WARN ] 操作失败，没有找到Alert窗口！
+2014-04-11 18:10:28 [ main:11859 ] - [ WARN ] 第 1 次等待。。。对元素[id:_disk_id_5 |name:  |xpath:  |class:  |css:  |tagName:  |linkText: ][点击下载2]执行 getText 操作失败！找不到元素！ScreenshotPath：D:\workspace\phoenix-autotest-1.0.1\phoenix\screenshot\getText2014-04-11 181028_1.png
+2014-04-11 18:10:28 [ main:11959 ] - [ WARN ] 操作失败，没有找到Alert窗口！
+2014-04-11 18:10:29 [ main:12255 ] - [ WARN ] 第 2 次等待。。。对元素[id:_disk_id_5 |name:  |xpath:  |class:  |css:  |tagName:  |linkText: ][点击下载2]执行 getText 操作失败！找不到元素！ScreenshotPath：D:\workspace\phoenix-autotest-1.0.1\phoenix\screenshot\getText2014-04-11 181028_1.png
+2014-04-11 18:10:29 [ main:12355 ] - [ WARN ] 操作失败，没有找到Alert窗口！
+2014-04-11 18:10:29 [ main:12619 ] - [ WARN ] 第 3 次等待。。。对元素[id:_disk_id_5 |name:  |xpath:  |class:  |css:  |tagName:  |linkText: ][点击下载2]执行 getText 操作失败！找不到元素！ScreenshotPath：D:\workspace\phoenix-autotest-1.0.1\phoenix\screenshot\getText2014-04-11 181029_1.png
+2014-04-11 18:10:29 [ main:12719 ] - [ WARN ] 操作失败，没有找到Alert窗口！
+2014-04-11 18:18:17 [ main:0 ] - [ INFO ] --------------------------------------2014-04-11 18:18:17------------------------------------------------------
+2014-04-11 18:18:17 [ main:2 ] - [ INFO ] 加载成功
+2014-04-11 18:18:17 [ main:3 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-04-11 18:18:17 [ main:3 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-04-11 18:18:17 [ main:4 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-04-11 18:18:17 [ main:4 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-04-11 18:18:17 [ main:4 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-04-11 18:18:19 [ main:2198 ] - [ INFO ] 驱动类型：Chrome[WebDriver]
+2014-04-11 18:18:19 [ main:2206 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开浏览器]执行 openNewWindow 操作成功！openNewWindow的值是：about:blank
+2014-04-11 18:18:19 [ main:2210 ] - [ INFO ] 新的浏览器窗口句柄：CDwindow-987D9305-1578-409D-A801-898A628CC7AE
+2014-04-11 18:18:29 [ main:12278 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 gotoWindow 操作成功！gotoWindow的值是：http://pan.baidu.com/s/1hqJZGBM
+2014-04-11 18:19:49 [ main:0 ] - [ INFO ] --------------------------------------2014-04-11 18:19:49------------------------------------------------------
+2014-04-11 18:19:49 [ main:2 ] - [ INFO ] 加载成功
+2014-04-11 18:19:49 [ main:3 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-04-11 18:19:49 [ main:3 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-04-11 18:19:49 [ main:3 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-04-11 18:19:49 [ main:4 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-04-11 18:19:49 [ main:4 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-04-11 18:19:51 [ main:2204 ] - [ INFO ] 驱动类型：Chrome[WebDriver]
+2014-04-11 18:19:51 [ main:2212 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开浏览器]执行 openNewWindow 操作成功！openNewWindow的值是：about:blank
+2014-04-11 18:19:51 [ main:2215 ] - [ INFO ] 新的浏览器窗口句柄：CDwindow-B6C5DF12-29AE-49F4-90D3-E08CACDD6EAC
+2014-04-11 18:19:56 [ main:7364 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 gotoWindow 操作成功！gotoWindow的值是：http://pan.baidu.com/s/1hqJZGBM
+2014-04-14 15:32:04 [ main:0 ] - [ INFO ] --------------------------------------2014-04-14 15:32:04------------------------------------------------------
+2014-04-14 15:32:04 [ main:16 ] - [ INFO ] 加载成功
+2014-04-14 15:32:04 [ main:32 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-04-14 15:32:04 [ main:32 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-04-14 15:32:04 [ main:32 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-04-14 15:32:04 [ main:32 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-04-14 15:32:04 [ main:32 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-04-14 15:32:07 [ main:3852 ] - [ INFO ] 驱动类型：Chrome[WebDriver]
+2014-04-14 15:32:08 [ main:4302 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开浏览器]执行 openNewWindow 操作成功！openNewWindow的值是：about:blank
+2014-04-14 15:32:09 [ main:5292 ] - [ INFO ] 新的浏览器窗口句柄：CDwindow-C0C8A0AD-A0CD-49AB-9ADA-2C005A51BB46
+2014-04-14 15:32:14 [ main:10458 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 gotoWindow 操作成功！gotoWindow的值是：http://pan.baidu.com/s/1hqJZGBM
+2014-04-14 16:04:01 [ main:0 ] - [ INFO ] --------------------------------------2014-04-14 16:04:01------------------------------------------------------
+2014-04-14 16:04:01 [ main:0 ] - [ INFO ] 加载成功
+2014-04-14 16:04:01 [ main:0 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-04-14 16:04:01 [ main:0 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-04-14 16:04:01 [ main:0 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-04-14 16:04:01 [ main:0 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-04-14 16:04:01 [ main:0 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-04-14 16:04:02 [ main:1194 ] - [ INFO ] 驱动类型：Chrome[WebDriver]
+2014-04-14 16:04:02 [ main:1202 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开浏览器]执行 openNewWindow 操作成功！openNewWindow的值是：about:blank
+2014-04-14 16:04:02 [ main:1297 ] - [ INFO ] 新的浏览器窗口句柄：CDwindow-95491CC0-C6F8-472A-B701-CC8AE4DB49F1
+2014-04-14 16:04:08 [ main:6630 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 gotoWindow 操作成功！gotoWindow的值是：http://pan.baidu.com/s/1hqJZGBM
+2014-04-14 16:04:08 [ main:6695 ] - [ INFO ] 对元素[id:downFileButtom |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载]执行 click 操作成功！
+2014-04-14 16:04:08 [ main:7305 ] - [ INFO ] 对元素[id:_disk_id_5 |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载2]执行 getText 操作成功！getText的值是：_disk_id_5
+2014-04-14 16:04:08 [ main:7332 ] - [ INFO ] 对元素[id:_disk_id_5 |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载2]执行 getText 操作成功！getText的值是：_disk_id_5
+2014-04-14 16:04:08 [ main:7341 ] - [ INFO ] 对元素[id:_disk_id_5 |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载2]执行 click 操作成功！
+2014-04-14 16:04:08 [ main:7369 ] - [ ERROR ] 执行 click 操作捕捉到异常。异常类型：org.openqa.selenium.ElementNotVisibleException ,异常信息：element not visible
+  (Session info: chrome=28.0.1500.72)
+  (Driver info: chromedriver=2.1,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ZXXFLY-PC', ip: '192.168.1.102', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_01'
+Session ID: b306dd6ad85c79bab661fe9f8a5e6e1a
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.1}, rotatable=false, locationContextEnabled=true, version=28.0.1500.72, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2014-04-14 16:04:09 [ main:7869 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][刷新页面]执行 refreshWindow 操作成功！
+2014-04-14 16:04:14 [ main:13118 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][刷新页面]执行 closeAllWindows 操作成功！
+2014-04-14 16:34:52 [ main:0 ] - [ INFO ] --------------------------------------2014-04-14 16:34:52------------------------------------------------------
+2014-04-14 16:34:52 [ main:1 ] - [ INFO ] 加载成功
+2014-04-14 16:34:52 [ main:3 ] - [ INFO ] 延迟功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将Delay设置为true！
+2014-04-14 16:34:52 [ main:4 ] - [ INFO ] 定位信息显示功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将LocatorDisplay设置为true！
+2014-04-14 16:34:52 [ main:4 ] - [ INFO ] 执行过程录制功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将RecordScenario设置为true！
+2014-04-14 16:34:52 [ main:4 ] - [ INFO ] 测试报告通过邮件发送功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将EMAIL.SEND.FLAG设置为true！
+2014-04-14 16:34:52 [ main:4 ] - [ INFO ] 通过FTP上传测试报告到服务器功能没有启用！要启用该功能，请在 phoenix.properties 配置文件中，将FTPServer.Flag设置为true！
+2014-04-14 16:34:54 [ main:2365 ] - [ INFO ] 驱动类型：Chrome[WebDriver]
+2014-04-14 16:34:54 [ main:2373 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开浏览器]执行 openNewWindow 操作成功！openNewWindow的值是：about:blank
+2014-04-14 16:34:54 [ main:2377 ] - [ INFO ] 新的浏览器窗口句柄：CDwindow-1498FF5E-68DD-48F2-A82C-1AA55E2F4E36
+2014-04-14 16:35:02 [ main:9471 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][打开页面]执行 gotoWindow 操作成功！gotoWindow的值是：http://pan.baidu.com/s/1hqJZGBM
+2014-04-14 16:35:02 [ main:9506 ] - [ INFO ] 对元素[id:downFileButtom |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载]执行 click 操作成功！
+2014-04-14 16:35:02 [ main:10113 ] - [ INFO ] 对元素[id:_disk_id_5 |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载2]执行 getText 操作成功！getText的值是：_disk_id_5
+2014-04-14 16:35:02 [ main:10140 ] - [ INFO ] 对元素[id:_disk_id_5 |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载2]执行 getText 操作成功！getText的值是：_disk_id_5
+2014-04-14 16:35:02 [ main:10149 ] - [ INFO ] 对元素[id:_disk_id_5 |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][点击下载2]执行 click 操作成功！
+2014-04-14 16:35:02 [ main:10176 ] - [ ERROR ] 执行 click 操作捕捉到异常。异常类型：org.openqa.selenium.ElementNotVisibleException ,异常信息：element not visible
+  (Session info: chrome=28.0.1500.72)
+  (Driver info: chromedriver=2.1,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ZXXFLY-PC', ip: '192.168.1.102', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_01'
+Session ID: f03974068c2d3786f9621821f3b6eb9e
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={chromedriverVersion=2.1}, rotatable=false, locationContextEnabled=true, version=28.0.1500.72, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]
+2014-04-14 16:35:03 [ main:10676 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][刷新页面]执行 refreshWindow 操作成功！
+2014-04-14 16:35:08 [ main:15957 ] - [ INFO ] 对元素[id:null |name:null |xpath:null |class:null |css:null |tagName:null |linkText:null][刷新页面]执行 closeAllWindows 操作成功！

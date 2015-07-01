@@ -1,0 +1,32 @@
+package phoenix.mobiletest.cases;
+
+import io.selendroid.SelendroidCapabilities;
+import io.selendroid.SelendroidDriver;
+import junit.framework.Assert;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+public class AppTest1 {
+  @Test
+  public void f() throws Exception {
+			System.out.println("Test Start:");
+			SelendroidCapabilities capa = SelendroidCapabilities.emulator("combaozhang.com:1.0");
+			//AndroidDriver,SelendroidDriver,WebDriver
+			SelendroidDriver driver = new SelendroidDriver(capa);
+			System.out.println("Running Case:");
+			WebElement inputField = driver.findElement(By.id("TextField1"));	
+			System.out.println("----Element Type:"+inputField.getTagName()+"  |Value:"+inputField.getText());
+			driver.findElement(By.id("TextField2")).sendKeys("shuruceshi");
+			Assert.assertEquals(driver.findElement(By.id("TextField2")).getText(),"shuruceshi");
+			driver.findElement(By.id("gaoji")).click();
+			driver.getKeyboard().pressKey("\uE100");
+			
+			System.out.println("Test End.");
+			//driver.wait(Long.parseLong(3000+""));
+			
+			driver.quit();
+  }
+  
+}

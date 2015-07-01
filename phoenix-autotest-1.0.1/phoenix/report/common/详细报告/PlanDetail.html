@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script type="text/javascript" src="../images/jquery-1.10.2.min.js"></script>
+<title>计划详细报告</title>
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: 微软雅黑;
+}
+.STYLE1 {font-size: x-large}
+.STYLE2 {
+	font-size: large;
+	font-weight: bold;
+}
+.STYLE3 {color: #0000CC}
+-->
+</style>
+
+<script type="text/javascript"> 
+function myFun(n){
+  var attValue=$("#image"+n).attr("src");
+
+if(attValue == "../images/expended_image.gif"){
+    $("#image"+n).attr("src","../images/collapsed_image.gif");
+  }else{
+    $("#image"+n).attr("src","../images/expended_image.gif");
+  }
+    $(".nowamagic"+n).slideToggle("fast");
+}
+
+function PlanFun(n){
+  var attValue=$("#img"+n).attr("src");
+
+if(attValue == "../images/expended_image.gif"){
+    $("#img"+n).attr("src","../images/collapsed_image.gif");
+  }else{
+    $("#img"+n).attr("src","../images/expended_image.gif");
+  }
+    $(".planmagic"+n).slideToggle("fast");
+}
+
+</script>
+
+</head>
+
+<body>
+<p class="STYLE1"><img src="../images/info_ico.gif"> 计划详细报告</p>
+<hr />
+<p class="STYLE2">1、计划信息统计</p>
+<blockquote>
+        <<显示计划统计信息>>
+</blockquote>
+</body>
+</html>

@@ -1,0 +1,53 @@
+package phoenix.webtest.cases;
+
+import org.testng.annotations.Test;
+
+import phoenix.frame.caseinterface.InterfaceCaseData;
+import phoenix.frame.window.Phoenix;
+
+public class DownFresh extends InterfaceCaseData{
+	private static String caseName="刷新页面用例";
+
+	public DownFresh(String caseName) {
+		super(caseName);
+		// TODO Auto-generated constructor stub
+	}
+	@Test
+	public void run(){
+		DownFresh downFresh = new DownFresh(caseName);
+		downFresh.countDown();
+	}
+	
+	public void countDown(){
+		GUIElement("打开浏览器").openNewWindow("about:blank");
+		GUIElement("打开页面").gotoWindow("http://pan.baidu.com/s/1hqJZGBM");
+		for(int i=0;i<2;i++){
+		GUIElement("点击下载").click();
+		Phoenix.sleep(500);
+		try{
+		if(GUIElement("点击下载2").getText("id").equals("_disk_id_5")){
+			GUIElement("点击下载2").click();
+		}else{
+			if(GUIElement("关闭弹出框").isExist()){
+				GUIElement("关闭弹出框").click();			
+			} else {
+				GUIElement("点击下载").click();
+			}			
+		}	
+		}catch(Exception ee){
+		
+		}
+			
+		Phoenix.sleep(500);
+		GUIElement("刷新页面").refreshWindow();
+		System.out.println(i);
+		}
+		GUIElement("刷新页面").closeAllWindows();
+	}
+
+	public static void main(String args[]){
+		DownFresh downFresh = new DownFresh(caseName);
+		downFresh.run();
+	}
+
+}
